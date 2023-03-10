@@ -2,11 +2,11 @@ var a = 232;
 
 let b = 120; // let arranca...desde ES6
 
-let myDom = document; // acceso global es el html mismo.
+let myDOM = document; // 
 
-console.log(myDom);
+console.log(myDOM);
 
-let myapp = document.getElementById("myapp");
+let myApp = document.getElementById("myApp");
 
-myapp.innerHTML = "Estoy modificando mi placeholder";
+myApp.innerHTML = "Estoy modificando mi placeholder"
 
