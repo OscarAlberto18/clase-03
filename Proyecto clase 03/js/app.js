@@ -1,12 +1,12 @@
-var a = 232;
+let a = 232;
 
 let b = 120; // let arranca...desde ES6
 
-let myDOM = document; // 
+console.log(a+b);
 
-console.log(myDOM);
 
-let myApp = document.getElementById("myApp");
+//let nombre = prompt('¿Cuál es tu nombre?')
+//alert(`Hola ${nombre}`)
 
-myApp.innerHTML = "Estoy modificando mi placeholder"
-
+let mensaje = prompt("Introduzca su nombre:");
+document.getElementById("ejemplo").innerHTML = mensaje;
