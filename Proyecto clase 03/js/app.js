@@ -2,7 +2,9 @@ let a = 232;
 
 let b = 120; // let arranca...desde ES6
 
-console.log(a+b);
+let myDOM = document; // 
+
+console.log(myDOM);
 
 
 //let nombre = prompt('¿Cuál es tu nombre?')
