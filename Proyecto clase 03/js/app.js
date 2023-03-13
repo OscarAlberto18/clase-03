@@ -10,5 +10,8 @@ console.log(myDOM);
 //let nombre = prompt('¿Cuál es tu nombre?')
 //alert(`Hola ${nombre}`)
 
-let mensaje = prompt("Introduzca su nombre:");
-document.getElementById("ejemplo").innerHTML = mensaje;
+let mensaje = prompt("Por favor, ingrese su nombre:");
+
+let divmensaje = document.getElementById("ejemplo");
+
+divmensaje.innerHTML = `¡Bienvenido ${mensaje}!`;
